@@ -1,0 +1,343 @@
+/*
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.topnav {
+    font-size: 15px; 
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+ 
+    background: url(../qa/header.png) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.detailproduk {
+    padding-top: 1%;
+    padding-bottom: 4%;
+    padding-right: 2%;
+    padding-left: 2%;
+    position: relative;
+}
+
+.agendafk {
+    padding-top: 1%;
+    padding-bottom: 4%;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-top:-50px;
+    position: relative;
+}
+
+.agendafk >h3 {
+      
+      
+      text-align: center;
+      font-size: 2.3em;
+      font-weight: normal;
+}
+.detailproduk > h2{
+    margin: 1em 0px 0.384em;
+    font-weight: normal;
+    font-size: 2.3rem; 
+    line-height: 1.408;
+    text-align: left;
+    
+}
+
+.detailproduk > p {
+    margin: 1em 0px 0.384em;
+    font-weight: normal;
+    font-size: 2.3em; 
+    line-height: 1.408;
+    text-align: left;
+    
+}
+.detailproduk >h3 {
+      
+      
+      text-align: center;
+      font-size: 2.3em;
+      font-weight: normal;
+}
+
+.pendahuluan {
+    padding-top: 3%;
+    padding-bottom: 4%;
+    padding-right: 10%;
+    padding-left: 10%;
+    position: relative;
+ 
+  
+
+}
+
+.pendahuluan > h2{
+    margin: 1em 0px 0.384em;
+    font-weight: normal;
+    font-size: 2.3rem; 
+    line-height: 1.408;
+    text-align: left;
+    
+}
+
+.pendahuluan >h3 {
+      
+      display: block;
+      text-align: center;
+      font-size: 2.3em;
+      font-weight: normal;
+}
+
+
+.divider {
+    width: 65px;
+    height: 4px;
+    padding: 0;
+    margin :20px auto 34px ;
+    border:none;
+}
+.dividerproduk {
+    width: 100%;
+    height: 2px;
+    padding: 0;
+    margin :20px auto 34px ;
+    border:none;
+}
+.bgletdown{
+    background :linear-gradient(90deg, #f44238 0%, #f44238 100%);
+}
+
+
+.row{
+    padding-top: 3%;
+    padding-right: 7%;
+    padding-left: 10%;
+    
+    box-sizing: border-box; 
+    font-family: HelveticaNeue; 
+    font-weight: normal;
+  
+}
+
+
+.als{
+    padding-bottom: 25px !important;
+
+}
+.alasan{
+    padding-top: 1%;
+    padding-right: 10%;
+     padding-left: 10%;
+     margin-bottom: -30px;
+     position: relative;
+     color:grey;
+     letter-spacing: 2.2px;
+     font-weight: normal;
+     font-family: HelveticaNeue; 
+
+}
+
+
+.error-page {
+    background: #6bc5a4;
+}
+
+.error-wrapper {
+    margin-top: 15%;
+}
+
+
+.back-btn {
+    color: #f44238;
+    border: 1px solid #f44238;
+    padding: 10px ;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 30px;
+     -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -ms-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+    transition: all ease-in-out .3s;
+    background-color: #fff;
+
+}
+.back-btn >a {
+    color: #f44238;
+}
+.back-btn:hover {
+    background: #f44238;
+    color: #fff;
+    border-color: #fff;
+    text-decoration: none;
+}
+
+
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    margin-top: -20px;
+    height: 400px;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+.mvxxxl {
+    margin-top: 50px !important;
+    margin-bottom: 30px !important;
+}
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}

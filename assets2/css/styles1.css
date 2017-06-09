@@ -1,0 +1,25 @@
+
+
+.nav-tabs > li > a {
+    background-color: #D6D6D6;
+    margin-right: 2px;
+    margin-bottom: 5px;
+    color: #42515b;
+    border-radius: 5px;
+    -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -ms-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+    transition: all ease-in-out .3s;
+    outline-style: #333333;
+    outline-color: #333333;
+}
+.nav-tabs > li.active >a{
+    background-color: #f44238; 
+    color:white;
+    
+}
+.nav-tabs > li > a:hover, .nav-tabs>li.active>a:hover {
+    background-color: #f44238;
+    color: white;
+}
