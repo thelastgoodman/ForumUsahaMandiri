@@ -1,5 +1,6 @@
-<<<<<<< HEAD
-# Fum-Salman
-=======
-# ForumUsahaMandiri
->>>>>>> 60df6dd6bced60c7aa92416bc3af8e10db1fe59e
+Forum Usaha Mandiri (FUM)
+
+-Register as Member / Non Member
+-Posting Thread
+-Comment Thread
+-Post Product
